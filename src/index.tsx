@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import './index.css';
+import './style.css';
 /**
  * Rich Text Editor usecase sample
  */

@@ -3,22 +3,22 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "@types/react": "18.2.7",
-    "@types/react-dom": "18.2.4",
-    "@syncfusion/ej2-base": "21.2.3",
-    "@syncfusion/ej2-buttons": "21.2.6",
-    "@syncfusion/ej2-react-base": "21.2.8",
-    "@syncfusion/ej2-react-buttons": "21.2.6",
-    "@syncfusion/ej2-richtexteditor": "21.2.8",
-    "@syncfusion/ej2-react-richtexteditor": "21.2.8",
-    "@syncfusion/ej2-icons": "21.2.3",
-    "@syncfusion/ej2-lists": "21.2.6",
-    "@syncfusion/ej2-documenteditor": "21.2.8",
-    "@syncfusion/ej2-splitbuttons": "21.2.5",
-    "@syncfusion/ej2-navigations": "21.2.8",
-    "@syncfusion/ej2-pivotview": "21.2.8"
+    "@syncfusion/ej2-base": "^21.2.3",
+    "@syncfusion/ej2-buttons": "^21.2.6",
+    "@syncfusion/ej2-documenteditor": "^21.2.8",
+    "@syncfusion/ej2-icons": "^21.2.3",
+    "@syncfusion/ej2-lists": "^21.2.6",
+    "@syncfusion/ej2-navigations": "^21.2.8",
+    "@syncfusion/ej2-pivotview": "^21.2.8",
+    "@syncfusion/ej2-react-base": "^21.2.8",
+    "@syncfusion/ej2-react-buttons": "^21.2.6",
+    "@syncfusion/ej2-react-richtexteditor": "^21.2.8",
+    "@syncfusion/ej2-richtexteditor": "^21.2.8",
+    "@syncfusion/ej2-splitbuttons": "^21.2.5",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,7 +30,11 @@
     "react-scripts": "latest"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
