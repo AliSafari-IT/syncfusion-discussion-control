@@ -1,7 +1,13 @@
-h1, p {
-  font-family: Lato;
-}
-
+.bootstrap-dark #rteUseCase .control-wrapper .tag,
+.bootstrap5-dark #rteUseCase .control-wrapper .tag, 
+.fluent-dark #rteUseCase .control-wrapper .tag,
+.fabric-dark #rteUseCase .control-wrapper .tag, 
+.material-dark #rteUseCase .control-wrapper .tag, 
+.tailwind-dark #rteUseCase .control-wrapper .tag, 
+.highcontrast #rteUseCase .control-wrapper .tag{
+  color: #fff;
+  background: #484644;
+}   
 
 #rteUseCase .control-wrapper .tagSection {
   float: left;
@@ -137,7 +143,7 @@ h1, p {
 }
 
 #rteUseCase .control-wrapper .questionar {
-  background: url(./src/rich-text-editor/images/emp1.png);
+  background: lightblue;
   margin-top: 2px;
 }
 
@@ -163,23 +169,23 @@ h1, p {
 }
 
 #rteUseCase .control-wrapper .logos {
-  background: url(./src/rich-text-editor/images/emp2.png);
+  background: lightcyan;
 }
 
 #rteUseCase .control-wrapper .logo {
-  background: url(./src/rich-text-editor/images/author.png) no-repeat scroll 0 0 transparent;
+  background: lightgreen no-repeat scroll 0 0 transparent;
 }
 
 #rteUseCase .control-wrapper .emp1 {
-  background: url(./src/rich-text-editor/images/1.png) no-repeat scroll 0 0 transparent;
+  background: lightgrey no-repeat scroll 0 0 transparent;
 }
 
 #rteUseCase .control-wrapper .emp2 {
-  background: url(./src/rich-text-editor/images/2.png) no-repeat scroll 0 0 transparent;
+  background: lightcoral no-repeat scroll 0 0 transparent;
 }
 
 #rteUseCase .control-wrapper .emp3 {
-  background: url(./src/rich-text-editor/images/3.png) no-repeat scroll 0 0 transparent;
+  background: lightsteelblue no-repeat scroll 0 0 transparent;
 }
 
 #rteUseCase .control-wrapper .blog-avatar{
@@ -297,13 +303,3 @@ h1, p {
   width: auto;
   margin: 0;
 }
-.bootstrap-dark #rteUseCase .control-wrapper .tag,
-.bootstrap5-dark #rteUseCase .control-wrapper .tag, 
-.fluent-dark #rteUseCase .control-wrapper .tag,
-.fabric-dark #rteUseCase .control-wrapper .tag, 
-.material-dark #rteUseCase .control-wrapper .tag, 
-.tailwind-dark #rteUseCase .control-wrapper .tag, 
-.highcontrast #rteUseCase .control-wrapper .tag{
-  color: #fff;
-  background: #484644;
-}   

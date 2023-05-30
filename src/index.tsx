@@ -1,4 +1,3 @@
-import { createRoot } from 'react-dom/client';
 import './style.css';
 /**
  * Rich Text Editor usecase sample
@@ -14,23 +13,23 @@ import {
   Link,
   QuickToolbar,
 } from '@syncfusion/ej2-react-richtexteditor';
-import { updateSampleSection } from './sample-base';
 import { isNullOrUndefined as isNOU } from '@syncfusion/ej2-base';
+import { updateSampleSection } from '../sample-base';
 
 function Forums() {
   React.useEffect(() => {
     updateSampleSection();
   }, []);
-  let rteObj;
-  let answerSectionEle;
+  let rteObj: RichTextEditorComponent;
+  let answerSectionEle: any;
   let answerSectionRef = (element) => {
     answerSectionEle = element;
   };
-  let answerCountEle;
+  let answerCountEle: any;
   let answerCountRef = (element) => {
     answerCountEle = element;
   };
-  let answerEle;
+  let answerEle: any;
   let answerRef = (element) => {
     answerEle = element;
   };
@@ -42,7 +41,7 @@ function Forums() {
   }
   function postMessage() {
     let empCount = 0;
-    let answerElement = rteObj.contentModule.getEditPanel();
+    let answerElement: any = rteObj.contentModule.getEditPanel();
     let comment = rteObj.getHtml();
     let empList = ['emp1', 'emp2', 'emp3'];
     let nameListList = ['Anne Dodsworth', 'Janet Leverling', 'Laura Callahan'];
