@@ -276,5 +276,4 @@ function Forums() {
 }
 export default Forums;
 
-const root = createRoot(document.getElementById('sample'));
-root.render(<Forums />);
+
